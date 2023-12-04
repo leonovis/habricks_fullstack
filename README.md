@@ -1,2 +1,2 @@
 # habricks_fullstack
-Real estate marketplace &amp; official web App for Habricks 
+Real estate marketplace &amp; official web App for Habricks NG
