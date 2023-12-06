@@ -16,15 +16,15 @@ export default function H1() {
             <FaSearch className='text-slate-500' />
         </form>
         <ul className='flex gap-4'>
-            <link to='/'>
+            <Link to='/'>
             <li className='hidden sm:inline text-slate-700 hover:underline'>Home</li>
-            </link>
-            <link to='/about'>
+            </Link>
+            <Link to='/about'>
             <li className='hidden sm:inline text-slate-700 hover:underline'>About</li>
-            </link>
-            <link to='/sign-out'>
+            </Link>
+            <Link to='/sign-in'>
             <li className='sm:inline text-slate-700 hover:underline'>Sign In</li>
-            </link>
+            </Link>
         </ul>
         </div>
     </header>
