@@ -10,8 +10,9 @@ export default function OAuth() {
     const navigate = useNavigate();
     const handleGoogleClick = async () => {
         try {
-            const provider = new GoogleAuthProvider()
-            const auth = getAuth(app)
+            const provider = new GoogleAuthProvider();
+            provider.setCustomParameters({ prompt: 'select_account' });
+            const auth = getAuth(app);
 
             const result = await signInWithPopup(auth, provider)
 
