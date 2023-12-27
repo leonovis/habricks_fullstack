@@ -6,6 +6,10 @@ import { Navigation } from 'swiper/modules';
 import SwiperCore from 'swiper';
 import 'swiper/css/bundle';
 import ListingItem from '../components/ListingItem';
+import Faq from '../components/Faq';
+import Statsboard from '../components/Statsboard';
+import Testimonial from '../components/Testimonial';
+
 
 
 export default function Home() {
@@ -71,6 +75,9 @@ export default function Home() {
           ))}
       </Swiper>
 
+      {/* Habricks stats component */}
+
+      <Statsboard />
 
       {/* Offer, rent, sale listing widget */}
 
@@ -116,9 +123,10 @@ export default function Home() {
         )}
       </div>
 
-      {/* footer */}
-
-      
+      {/* testimonial, customer review */}
+      <Testimonial />
+      {/* faq */}
+      <Faq />
     </div>
   )
 };

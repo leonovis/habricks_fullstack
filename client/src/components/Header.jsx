@@ -2,6 +2,7 @@ import { FaSearch } from 'react-icons/fa'
 import { Link, useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
+import HBlogo from '../images/HBlogo.png'
 
 export default function Header() {
   const { currentUser } = useSelector((state) => state.user);
@@ -28,8 +29,9 @@ export default function Header() {
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
           <Link to='/'>
             <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
+            <img className='h-8 w-8 mr-1' src={HBlogo} alt="logo" />
                 <span className='text-slate-500'>HA</span>
-                <span className='text-slate-800'>BRICKS LTD</span>
+                <span className='text-slate-800'>BRICKS</span>
             </h1>
           </Link>
         <form onSubmit={handleSubmit} className='bg-slate-100 p-2 rounded-md flex items-center'>
