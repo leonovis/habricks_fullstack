@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="bg-[#2D3748] text-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center">
+        <div className="flex flex-col sm:flex-row justify-between items-center">
+          <div className="flex items-center mb-4 sm:mb-0">
             <div className="h-8 w-8">
             <img src={HBlogo} alt="logo" />
             </div>
@@ -14,20 +14,20 @@ export default function Footer() {
             <span className='text-slate-800 ml-3 text-xl font-semibold'></span>
           </div>
           <nav className="flex space-x-6 items-center justify-between flex-row">
-            <Link className="hover:text-gray-300" to={'/'}>
+            <Link className="hover:text-gray-300 mb-2 sm:mb-0" to={'/'}>
               Home
             </Link>
-            <Link className="hover:text-gray-300" to={'/about'}>
+            <Link className="hover:text-gray-300 mb-2 sm:mb-0" to={'/about'}>
               About Us
             </Link>
-            <Link className="hover:text-gray-300" href="#">
+            <Link className="hover:text-gray-300 mb-2 sm:mb-0" href="#">
               Contact Us
             </Link>
-            <Link className="hover:text-gray-300" target="_blank" rel="noopener noreferrer" to="https://firebasestorage.googleapis.com/v0/b/habricks-fullstack.appspot.com/o/HABRICKS%20NIG%20PROFILE.pdf?alt=media&token=31f9afe1-9c6d-44ae-817a-b77f44214ebd">
+            <Link className="hover:text-gray-300 mb-2 sm:mb-0" target="_blank" rel="noopener noreferrer" to="https://firebasestorage.googleapis.com/v0/b/habricks-fullstack.appspot.com/o/HABRICKS%20NIG%20PROFILE.pdf?alt=media&token=31f9afe1-9c6d-44ae-817a-b77f44214ebd">
               Company Profile
             </Link>
           </nav>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 justify-center mt-4">
           <Link aria-label="LinkedIn" className="hover:text-gray-300" href="https://www.linkedin.com/company/habricks-nigeria-limited?trk=similar-pages">
               <LinkedinIcon className="h-6 w-6" />
             </Link>
