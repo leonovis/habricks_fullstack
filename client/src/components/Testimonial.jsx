@@ -53,7 +53,7 @@ export default function Testimonial() {
               width="96"
             />
             <blockquote className="mt-4 text-sm text-center text-gray-600">
-              "Purchasing my off-plan home through HABRICKS was a delight, Their attention to detail & commitment shown was beyond my expectations. Highly recommend"
+              "Purchasing my off-plan home through Habricks was a delight, Their attention to detail & commitment shown was beyond my expectations. Highly recommend"
             </blockquote>
             <p className="mt-2 font-semibold text-gray-800">- STEVEN FREEMAN</p>
           </div>
