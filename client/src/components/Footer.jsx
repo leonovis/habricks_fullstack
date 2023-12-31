@@ -28,10 +28,10 @@ export default function Footer() {
             </Link>
           </nav>
           <div className="flex space-x-4 justify-center mt-4">
-          <Link aria-label="LinkedIn" className="hover:text-gray-300" href="https://www.linkedin.com/company/habricks-nigeria-limited?trk=similar-pages">
+          <Link aria-label="LinkedIn" className="hover:text-gray-300" target="_blank" rel="noopener noreferrer" to="https://www.linkedin.com/company/habricks-nigeria-limited?trk=similar-pages">
               <LinkedinIcon className="h-6 w-6" />
             </Link>
-            <Link aria-label="Instagram" className="hover:text-gray-300" href="https://www.instagram.com/habricks_nig/">
+            <Link aria-label="Instagram" className="hover:text-gray-300" target="_blank" rel="noopener noreferrer" to="https://www.instagram.com/habricks_nig/">
               <InstagramIcon className="h-6 w-6" />
             </Link>
           </div>
