@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center mb-4 sm:mb-0">
             <div className="h-8 w-8">
-            <img src={HBlogo} alt="logo" />
+            <img s rc={HBlogo} alt="logo" />
             </div>
             <span className='text-white-500 ml-3 text-xl font-semibold'>HABRICKS</span>
             <span className='text-slate-800 ml-3 text-xl font-semibold'></span>
@@ -18,10 +18,10 @@ export default function Footer() {
               Home
             </Link>
             <Link className="hover:text-gray-300 mb-2 sm:mb-0" to={'/about'}>
-              About Us
+              About
             </Link>
             <Link className="hover:text-gray-300 mb-2 sm:mb-0" href="#">
-              Contact Us
+              Contact
             </Link>
             <Link className="hover:text-gray-300 mb-2 sm:mb-0" target="_blank" rel="noopener noreferrer" to="https://firebasestorage.googleapis.com/v0/b/habricks-fullstack.appspot.com/o/HABRICKS%20NIG%20PROFILE.pdf?alt=media&token=31f9afe1-9c6d-44ae-817a-b77f44214ebd">
               Company Profile
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p className="text-sm">© Copyright 2023, Habricks Inc. All Rights Reserved.</p>
+          <p className="text-sm">© Copyright 2024, Habricks Inc. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
