@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center mb-4 sm:mb-0">
             <div className="h-8 w-8">
-            <img s rc={HBlogo} alt="logo" />
+            <img src={HBlogo} alt="logo" />
             </div>
             <span className='text-white-500 ml-3 text-xl font-semibold'>HABRICKS</span>
             <span className='text-slate-800 ml-3 text-xl font-semibold'></span>
